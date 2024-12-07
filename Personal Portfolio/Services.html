@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Sahil Gupta</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #0b0c28;
+        color: white;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+        color: #ffffff;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(14, 14, 79);
+        border-bottom: white 1px solid;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(148, 148, 237);
+        font-size: 1.2rem;
+        text-decoration: none;
+      }
+      .left {
+        font-size: large;
+        color: wheat;
+      }
+      .services-section {
+        padding: 50px 0;
+      }
+      .services-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+      .service-box {
+        background-color: #1e1f47;
+        border-radius: 10px;
+        padding: 30px;
+        width: 250px;
+        text-align: center;
+        position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .service-box:hover {
+        box-shadow: 0 15px 25px rgba(237, 237, 237, 0.3);
+      }
+      .service-box .icon-box {
+        background-color: #4c4cff;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 20px;
+        transition: background-color 0.3s ease;
+      }
+      .service-box:hover .icon-box {
+        background-color: #ea9292;
+      }
+      .service-box i {
+        font-size: 40px;
+        color: white;
+      }
+      .service-box h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #ffffff;
+      }
+      .service-box p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #d1d1e0;
+      }
+      .service-box:hover {
+        transform: translate3d(-20px, -20px, -20px);
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+
+      .icon-box i {
+        animation: pulse 1.5s infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left">Sahil's Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="services-section">
+      <h1>My Services</h1>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="icon-box"><i class="fas fa-video"></i></div>
+          <h2>Video Editing</h2>
+          <p>
+            High-quality video editing services to make your projects stand out.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="icon-box"><i class="fas fa-code"></i></div>
+          <h2>Web Development</h2>
+          <p>
+            Full-stack web development services, including responsive design and
+            clean code.
+          </p>
+        </div>
+        <div class="service-box">
+          <div class="icon-box"><i class="fas fa-link"></i></div>
+          <h2>Blockchain Technology</h2>
+          <p>
+            Expert blockchain solutions, including smart contracts and
+            decentralized applications.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

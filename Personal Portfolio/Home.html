@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahil - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(14, 14, 79);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(148, 148, 237);
+        font-size: 1.1rem;
+      }
+      .left {
+        font-size: large;
+        color: wheat;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 70px 0;
+      }x
+      .firstSection > div {
+        width: 40%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+      .leftSection .buttons{
+        padding: 15px;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(162, 90, 229);
+      }
+      #element {
+        color: rgb(162, 90, 229);
+      }
+      .secondSection{
+        max-width: 1vw;
+        margin-left: 130px ;
+        margin-top: -10px;
+      }
+      #element1 {
+      font-family: 'Arial', sans-serif;
+      font-size: 1em;
+      font-weight: bold;
+      text-align: right;
+      color: #ffffff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      animation: glow 1.5s ease-in infinite alternate-reverse;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #3498db;
+      }
+      to {
+        text-shadow: 0 0 20px #2980b9, 0 0 30px #2980b9, 0 0 40px #2980b9, 0 0 50px #2980b9;
+      }
+    }
+    main hr.sam{
+        border: 0;
+        background: #9c97f1;
+        height: 0.5px;
+        margin-top: 200px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    hr{
+        border: 0;
+        background: #9c97f1;
+        height: 0.5px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .languages{
+        max-width: 80vw;
+        margin: auto;
+    }
+    .languages h1{
+        font-size: 1.9rem;
+        max-width: 80vw;
+        margin: auto;
+    }
+    .languages .box{
+        background: white;
+        width: 1000px;
+        height: 2px;
+        display: flex;
+        margin: 45px 0;
+    }
+    .languages .vertical{
+        height: 50px;
+        width: 2px;
+        background-color: white;
+        margin: 0 150px;
+    }
+    .image-top
+    {
+        width: 50px;
+        position: relative;
+        top: 50px;
+        left: -25px;
+    }
+    .vertical-title{
+        position: relative;
+        top: 60px;
+        width: 250px;
+        left: -100px;
+    }
+    .image-top-1
+    {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 50px;
+        left: -23px;
+    }
+    .vertical-title-1{
+        position: relative;
+        top: 60px;
+        width: 250px;
+        left: -70px;
+    }
+    .image-top-2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: -175px;
+}
+.vertical-title-2 {
+    position: relative;
+    top: 100px;
+    width: 250px;
+    left: -225px;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-links ul li {
+    margin: 0 60px;
+}
+.social-links ul li a {
+    color: #ee4646; 
+    font-size: 30px; 
+}
+.social-links ul li a:hover {
+    color: #5df249;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sahil's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi my name is
+          <span class="purple">Sahil</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="Samay_Resume.docx" download="Sahil_Resume" class="btn">Download Resume</a>
+            <a href="https://github.com/Samay32/Master" target="_blank" class="btn">Visit GitHub</a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="Developer.png" alt="" />
+        </div>
+      </section>
+      <hr>
+      <section class="languages">
+        <h1>Skills</h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="Frontend_web.webp" alt="">
+                <div class="vertical-title">Front-end Web Developer</div>
+            </div>
+            <div class="vertical">
+                <img class="image-top-1" src="Blockchain_Developer.webp" alt="">
+                <div class="vertical-title-1">Blockchain Developer</div>
+            </div>
+            <div class="vertical"></div>
+                <img class="image-top-2" src="Video_Editor.avif" alt="">
+                <div class="vertical-title-2">Video Editor</div>
+        </div>
+        </div>
+      </section>
+      <hr class="sam">
+      <section class="secondSection">
+        <h1><span id="element1"></span></h1>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Video Editor"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      function initTyped() {
+        new Typed("#element1", {
+          strings: ["Follow"],
+          typeSpeed: 50,
+          backSpeed: 50,
+          backDelay: 1000,
+          startDelay: 500,
+          loop: true,
+          fadeOut: true, 
+          showCursor: true,
+          cursorChar: '!',
+        });
+      }
+      initTyped();
+    </script>
+    <div class="social-links">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/sahil-gupta-581649223/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/sahil_gupta_sa/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/Samay32/Master" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+    
+    </script>
+  </body>
+</html>
